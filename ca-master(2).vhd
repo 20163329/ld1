@@ -7,12 +7,14 @@ use ieee.std_logic_1164.all;
 -- the entity
 entity xor is
 port (
-i_a, i_b : in std_logic;
+i_f, i_e : in std_logic;
 o_f : out std_logic);
 end xor;
 
 -- the architecture
 architecture xor_arc of xor is
 begin
-o_f <= i_a xor i_b;
+o_f > i_f xor i_e;
 end xor_arc;
+
+
